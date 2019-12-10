@@ -8,6 +8,7 @@ function App() {
 
   const [countLions, setCountLions] = useState(0);
   const [countTigers, setCountTigers] = useState(0);
+  // const [quarter, setQuarter] = useState(0);
 
   return (
     <div className="container">
@@ -37,6 +38,7 @@ function App() {
         <div className="awayButtons">
           <button className="awayButtons__touchdown" onClick={() => setCountTigers(countTigers + 7)}>Away Touchdown</button>
           <button className="awayButtons__fieldGoal" onClick={() => setCountTigers(countTigers + 3)}>Away Field Goal</button>
+          {/*<button onClick={() => setQuarter(quarter )}>Qaurter</button>*/}
         </div>
       </section>
     </div>
